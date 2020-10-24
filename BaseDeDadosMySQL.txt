@@ -1,0 +1,11 @@
+create table if not exists paciente(
+	id int unsigned not null auto_increment primary key,
+	prontuario varchar(20) not null,
+	nome varchar(100) not null,
+	nome_mae varchar(20) not null,
+	data_nascimento datetime,
+	estado_civil varchar(20),
+	cor varchar(20),
+	telefone varchar(20),
+	fotografia varchar(200),
+)ENGINE=MyISAM DEFAULT CHARSET=utf8;
